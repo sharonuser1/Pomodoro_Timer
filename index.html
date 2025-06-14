@@ -1,0 +1,28 @@
+<DOCTYPE>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+        <title>Lab1</title>
+    </head>
+    <body>
+        <p>Pomodoro Timer</p>
+          <div class="progressbar-inner">
+            <h2 class="progressbar-number">05:00</h2>
+          </div>
+        <div class="flex-container">
+        <div><svg width = "80\0" height = "400">
+        <circle cx="150" cy="280" r="120" stroke="red" stroke-width="4" fill="red"/>
+        <ellipse cx="165" cy="140" rx="20" ry="30" fill="green" />
+        <rect x="143" y="100" width="12" height="60" fill="green"/>
+        
+        </svg></div>
+    </div>
+        <div class="flex-container">
+        <div><button class="b1"onclick= "startTimer()">Start</button></div>
+        <div><button class="b2"onclick= "resetTimer()">Stop</button></div>
+        <div><button class="b3"onclick= "pauseTimer()" id="Pause">Pause</button></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
+</DOCTYPE>
